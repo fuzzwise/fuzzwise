@@ -1,0 +1,2936 @@
+Test Case 1 Input:
+321-23
+Output:
+-2
+Test Case 2 Input:
+531-230-4
+Output:
+-4
+Test Case 3 Input:
+5312345
+Output:
+4
+Test Case 4 Input:
+53-20-413
+Output:
+-4
+Test Case 5 Input:
+323-21
+Output:
+-2
+Test Case 6 Input:
+32123
+Output:
+3
+Test Case 7 Input:
+32-101
+Output:
+0
+Test Case 8 Input:
+531-23-40
+Output:
+-4
+Test Case 9 Input:
+531-23-40
+Output:
+-4
+Test Case 10 Input:
+321-23
+Output:
+-2
+Test Case 11 Input:
+501234
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 12 Input:
+-201-3-4
+Output:
+-9223372036854775808
+Test Case 13 Input:
+-201-35
+Output:
+-9223372036854775808
+Test Case 14 Input:
+321-23
+Output:
+-2
+Test Case 15 Input:
+30-12-3
+Output:
+-9
+Test Case 16 Input:
+2-1012
+Output:
+-1
+Test Case 17 Input:
+201-1
+Output:
+-1
+Test Case 18 Input:
+00000
+Output:
+-9223372036854775808
+Test Case 19 Input:
+a21-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 20 Input:
+501234
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 21 Input:
+00000
+Output:
+-9223372036854775808
+Test Case 22 Input:
+01234
+Output:
+-9223372036854775808
+Test Case 23 Input:
+3012-23
+Output:
+-4
+Test Case 24 Input:
+-321-23
+Output:
+-9223372036854775808
+Test Case 25 Input:
+11
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 26 Input:
+-501234
+Output:
+-9223372036854775808
+Test Case 27 Input:
+-501234
+Output:
+-9223372036854775808
+Test Case 28 Input:
+-5021-3
+Output:
+-9223372036854775808
+Test Case 29 Input:
+-2312-1
+Output:
+-9223372036854775808
+Test Case 30 Input:
+"abc"321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 31 Input:
+a321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 32 Input:
+501234
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 33 Input:
+11
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 34 Input:
+4-1234
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 35 Input:
+0512345
+Output:
+-9223372036854775808
+Test Case 36 Input:
+321-23
+Output:
+-2
+Test Case 37 Input:
+"abc"321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 38 Input:
+301234
+Output:
+-9
+Test Case 39 Input:
+true321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 40 Input:
+301234
+Output:
+-9
+Test Case 41 Input:
+"abc"321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 42 Input:
+"abc"321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 43 Input:
+-232103
+Output:
+-9223372036854775808
+Test Case 44 Input:
+321-23
+Output:
+-2
+Test Case 45 Input:
+-321-23
+Output:
+-9223372036854775808
+Test Case 46 Input:
+5-10123
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 47 Input:
+2.531-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 48 Input:
+-501234
+Output:
+-9223372036854775808
+Test Case 49 Input:
+-23213
+Output:
+-9223372036854775808
+Test Case 50 Input:
+"abc"321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 51 Input:
+501234
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 52 Input:
+001234
+Output:
+-9223372036854775808
+Test Case 53 Input:
+-1321-23
+Output:
+-9223372036854775808
+Test Case 54 Input:
+10
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 55 Input:
+00000
+Output:
+-9223372036854775808
+Test Case 56 Input:
+00000
+Output:
+-9223372036854775808
+Test Case 57 Input:
+-23213
+Output:
+-9223372036854775808
+Test Case 58 Input:
+01234
+Output:
+-9223372036854775808
+Test Case 59 Input:
+301234
+Output:
+-9
+Test Case 60 Input:
+"abc"321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 61 Input:
+-1321-23
+Output:
+-9223372036854775808
+Test Case 62 Input:
+00111
+Output:
+-9223372036854775808
+Test Case 63 Input:
+-321-23
+Output:
+-9223372036854775808
+Test Case 64 Input:
+00123
+Output:
+-9223372036854775808
+Test Case 65 Input:
+-201234
+Output:
+-9223372036854775808
+Test Case 66 Input:
+3012-34
+Output:
+-9
+Test Case 67 Input:
+abc321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 68 Input:
+"abc"321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 69 Input:
+-501234
+Output:
+-9223372036854775808
+Test Case 70 Input:
+000-21
+Output:
+-9223372036854775808
+Test Case 71 Input:
+"abc"321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 72 Input:
+10
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 73 Input:
+301234
+Output:
+-9
+Test Case 74 Input:
+301234
+Output:
+-9
+Test Case 75 Input:
+-50-3210
+Output:
+-9223372036854775808
+Test Case 76 Input:
+000-21
+Output:
+-9223372036854775808
+Test Case 77 Input:
+11
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 78 Input:
+321-23
+Output:
+-2
+Test Case 79 Input:
+-321-23
+Output:
+-9223372036854775808
+Test Case 80 Input:
+50123-2
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 81 Input:
+"abc"321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 82 Input:
+000-21
+Output:
+-9223372036854775808
+Test Case 83 Input:
+3012-23
+Output:
+-4
+Test Case 84 Input:
+401234
+Output:
+-16
+Test Case 85 Input:
+000-21
+Output:
+-9223372036854775808
+Test Case 86 Input:
+-23213
+Output:
+-9223372036854775808
+Test Case 87 Input:
+-32510-2
+Output:
+-9223372036854775808
+Test Case 88 Input:
+1-2-3045
+Output:
+-9
+Test Case 89 Input:
+a321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 90 Input:
+0321-23
+Output:
+-9223372036854775808
+Test Case 91 Input:
+-23213
+Output:
+-9223372036854775808
+Test Case 92 Input:
+-321-23
+Output:
+-9223372036854775808
+Test Case 93 Input:
+-321-23
+Output:
+-9223372036854775808
+Test Case 94 Input:
+301234
+Output:
+-9
+Test Case 95 Input:
+-321-23
+Output:
+-9223372036854775808
+Test Case 96 Input:
+-321-23
+Output:
+-9223372036854775808
+Test Case 97 Input:
+-23213
+Output:
+-9223372036854775808
+Test Case 98 Input:
+-105
+Output:
+-9223372036854775808
+Test Case 99 Input:
+321-23
+Output:
+-2
+Test Case 100 Input:
+"abc"321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 101 Input:
+-321-23
+Output:
+-9223372036854775808
+Test Case 102 Input:
+50-1234
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 103 Input:
+abc321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 104 Input:
+"abc"321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 105 Input:
+501234
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 106 Input:
+"abc"321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 107 Input:
+a321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 108 Input:
+-321-23
+Output:
+-9223372036854775808
+Test Case 109 Input:
+"abc"321-23
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 110 Input:
+2100
+Output:
+0
+Test Case 111 Input:
+5312345
+Output:
+4
+Test Case 112 Input:
+321-23
+Output:
+-2
+Test Case 113 Input:
+325-30
+Output:
+0
+Test Case 114 Input:
+321-23
+Output:
+-2
+Test Case 115 Input:
+321-23
+Output:
+-2
+Test Case 116 Input:
+32123
+Output:
+3
+Test Case 117 Input:
+531-23-40
+Output:
+-4
+Test Case 118 Input:
+53-240-53
+Output:
+-8
+Test Case 119 Input:
+32-101
+Output:
+0
+Test Case 120 Input:
+53-210-34
+Output:
+-3
+Test Case 121 Input:
+"5""3""-2""1""0""-3""4"
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 122 Input:
+-53210-3-4
+Output:
+-9223372036854775808
+Test Case 123 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 124 Input:
+30-54
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 125 Input:
+"5" (string)"3" (string)"-2" (string)"1" (string)"0" (string)"-3" (string)"4" (string)
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 126 Input:
+-123-405
+Output:
+-9223372036854775808
+Test Case 127 Input:
+"5""3""-2""1""0""-3""4"
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 128 Input:
+"53-210-34"
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 129 Input:
+5012345
+Output:
+-25
+Test Case 130 Input:
+5-3-210-34
+Output:
+-16
+Test Case 131 Input:
+50-210-34
+Output:
+-16
+Test Case 132 Input:
+1-1
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 133 Input:
+53-210-34
+Output:
+-3
+Test Case 134 Input:
+50-210-34
+Output:
+-16
+Test Case 135 Input:
+2-2045-34
+Output:
+-16
+Test Case 136 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 137 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 138 Input:
+-23-5104
+Output:
+-9223372036854775808
+Test Case 139 Input:
+53-210-34
+Output:
+-3
+Test Case 140 Input:
+53-210-34
+Output:
+-3
+Test Case 141 Input:
+"abc"3-210-34
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 142 Input:
+-25310-34
+Output:
+-9223372036854775808
+Test Case 143 Input:
+53-210-34
+Output:
+-3
+Test Case 144 Input:
+-23510-34
+Output:
+-9223372036854775808
+Test Case 145 Input:
+"53-210-34"
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 146 Input:
+2-25Explanation: This test case will cause an ArithmeticException because the value of 'n' is set to -2, which will result in an invalid calculation in the 'solve' method.
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 147 Input:
+"a"3-210-34
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 148 Input:
+2a3
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:19)
+	at Main.main(Main.java:15)
+Test Case 149 Input:
+53-210-34
+Output:
+-3
+Test Case 150 Input:
+"5" (string)"3" (string)"-2" (string)"1" (string)"0" (string)"-3" (string)"4" (string)
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 151 Input:
+23-210-34
+Output:
+4
+Test Case 152 Input:
+53-210-34
+Output:
+-3
+Test Case 153 Input:
+-50-210-34
+Output:
+-9223372036854775808
+Test Case 154 Input:
+-25310-34
+Output:
+-9223372036854775808
+Test Case 155 Input:
+53-210-34
+Output:
+-3
+Test Case 156 Input:
+"5" (string)"3" (string)"-2" (string)"1" (string)"0" (string)"-3" (string)"4" (string)
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 157 Input:
+53-210-34
+Output:
+-3
+Test Case 158 Input:
+53-210-34
+Output:
+-3
+Test Case 159 Input:
+-2310-34
+Output:
+-9223372036854775808
+Test Case 160 Input:
+53-210-34
+Output:
+-3
+Test Case 161 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 162 Input:
+-25310-34
+Output:
+-9223372036854775808
+Test Case 163 Input:
+00
+Output:
+-9223372036854775808
+Test Case 164 Input:
+5 (string)3 (string)-2 (string)1 (string)0 (string)-3 (string)4 (string)
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:19)
+	at Main.main(Main.java:15)
+Test Case 165 Input:
+00
+Output:
+-9223372036854775808
+Test Case 166 Input:
+-35-210-34
+Output:
+-9223372036854775808
+Test Case 167 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 168 Input:
+00
+Output:
+-9223372036854775808
+Test Case 169 Input:
+-25310-34
+Output:
+-9223372036854775808
+Test Case 170 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 171 Input:
+50-210-34
+Output:
+-16
+Test Case 172 Input:
+00
+Output:
+-9223372036854775808
+Test Case 173 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 174 Input:
+00
+Output:
+-9223372036854775808
+Test Case 175 Input:
+00
+Output:
+-9223372036854775808
+Test Case 176 Input:
+00
+Output:
+-9223372036854775808
+Test Case 177 Input:
+10
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 178 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 179 Input:
+00
+Output:
+-9223372036854775808
+Test Case 180 Input:
+5-3-210-34
+Output:
+-16
+Test Case 181 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 182 Input:
+301-2Explanation: This test case will raise an ArithmeticException as it attempts to divide by zero.
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 183 Input:
+53-210-34
+Output:
+-3
+Test Case 184 Input:
+53-210-34
+Output:
+-3
+Test Case 185 Input:
+53-210-34
+Output:
+-3
+Test Case 186 Input:
+53-210-34
+Output:
+-3
+Test Case 187 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 188 Input:
+53-210-34
+Output:
+-3
+Test Case 189 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 190 Input:
+5 (string)3 (string)-2 (string)1 (string)0 (string)-3 (string)4 (string)
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:19)
+	at Main.main(Main.java:15)
+Test Case 191 Input:
+01
+Output:
+-9223372036854775808
+Test Case 192 Input:
+53-210-34
+Output:
+-3
+Test Case 193 Input:
+5000000
+Output:
+0
+Test Case 194 Input:
+1 (string)2 (string)
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:19)
+	at Main.main(Main.java:15)
+Test Case 195 Input:
+32-101
+Output:
+0
+Test Case 196 Input:
+0 (string)1 (string)
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:19)
+	at Main.main(Main.java:15)
+Test Case 197 Input:
+53-210-34
+Output:
+-3
+Test Case 198 Input:
+50-210-34
+Output:
+-16
+Test Case 199 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 200 Input:
+53-210-34
+Output:
+-3
+Test Case 201 Input:
+00
+Output:
+-9223372036854775808
+Test Case 202 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 203 Input:
+53-210-34
+Output:
+-3
+Test Case 204 Input:
+5 (string)3 (string)-2 (string)1 (string)0 (string)-3 (string)4 (string)
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:19)
+	at Main.main(Main.java:15)
+Test Case 205 Input:
+50312-5
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 206 Input:
+-105-210-34-56-78-9
+Output:
+-9223372036854775808
+Test Case 207 Input:
+53-210-34
+Output:
+-3
+Test Case 208 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 209 Input:
+53-210-34
+Output:
+-3
+Test Case 210 Input:
+00
+Output:
+-9223372036854775808
+Test Case 211 Input:
+50-210-34
+Output:
+-16
+Test Case 212 Input:
+1 (string)2 (string)
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:19)
+	at Main.main(Main.java:15)
+Test Case 213 Input:
+00
+Output:
+-9223372036854775808
+Test Case 214 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 215 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 216 Input:
+1 (string)2 (string)3 (string)4 (string)5 (string)6 (string)
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:19)
+	at Main.main(Main.java:15)
+Test Case 217 Input:
+53-210-34
+Output:
+-3
+Test Case 218 Input:
+53-210-34
+Output:
+-3
+Test Case 219 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 220 Input:
+50
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 221 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 222 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 223 Input:
+1 (string)2 (string)3 (string)4 (string)5 (string)6 (string)7 (string)8 (string)9 (string)10 (string)
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:19)
+	at Main.main(Main.java:15)
+Test Case 224 Input:
+53-210-34
+Output:
+-3
+Test Case 225 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 226 Input:
+53-210-34
+Output:
+-3
+Test Case 227 Input:
+50
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 228 Input:
+50
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 229 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 230 Input:
+00
+Output:
+-9223372036854775808
+Test Case 231 Input:
+321-10
+Output:
+0
+Test Case 232 Input:
+531-23-45
+Output:
+-10
+Test Case 233 Input:
+32-101
+Output:
+0
+Test Case 234 Input:
+32123
+Output:
+3
+Test Case 235 Input:
+32-101
+Output:
+0
+Test Case 236 Input:
+5312345
+Output:
+4
+Test Case 237 Input:
+32123
+Output:
+3
+Test Case 238 Input:
+325 -3 4
+Output:
+-12
+Test Case 239 Input:
+532 -1 0 4 -2
+Output:
+-4
+Test Case 240 Input:
+5312345
+Output:
+4
+Test Case 241 Input:
+10-2-3-10235789
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 242 Input:
+"5" "3""1""2""3""4""5"
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 243 Input:
+-205312345
+Output:
+-9223372036854775808
+Test Case 244 Input:
+"5" "3" "1" "2" "3" "4" "5"
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 245 Input:
+-50-3-1024
+Output:
+-9223372036854775808
+Test Case 246 Input:
+00
+Output:
+-9223372036854775808
+Test Case 247 Input:
+"5\n3\n1\n2\n-3\n-4\n-5"
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 248 Input:
+5-102-34
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 249 Input:
+20-234
+Output:
+-9
+Test Case 250 Input:
+50-21-345
+Output:
+-25
+Test Case 251 Input:
+50-21-345
+Output:
+-25
+Test Case 252 Input:
+50-21-345
+Output:
+-25
+Test Case 253 Input:
+-5312345
+Output:
+-9223372036854775808
+Test Case 254 Input:
+-5312345
+Output:
+-9223372036854775808
+Test Case 255 Input:
+40-213
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 256 Input:
+5312345
+Output:
+4
+Test Case 257 Input:
+-50-2-1-3-4-5
+Output:
+-9223372036854775808
+Test Case 258 Input:
+-5312345
+Output:
+-9223372036854775808
+Test Case 259 Input:
+301-2
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 260 Input:
+00000000
+Output:
+-9223372036854775808
+Test Case 261 Input:
+-551-2345
+Output:
+-9223372036854775808
+Test Case 262 Input:
+-5312345
+Output:
+-9223372036854775808
+Test Case 263 Input:
+a50-21-345
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 264 Input:
+00000000
+Output:
+-9223372036854775808
+Test Case 265 Input:
+32-505
+Output:
+0
+Test Case 266 Input:
+-52-10-245
+Output:
+-9223372036854775808
+Test Case 267 Input:
+-32-101Test Case Input:502468Test Case Input:55-21-34
+Output:
+-9223372036854775808
+Test Case 268 Input:
+-5312345
+Output:
+-9223372036854775808
+Test Case 269 Input:
+-5312345
+Output:
+-9223372036854775808
+Test Case 270 Input:
+01-2-345
+Output:
+-9223372036854775808
+Test Case 271 Input:
+-5312345
+Output:
+-9223372036854775808
+Test Case 272 Input:
+-5-3-1-2-3-4-5
+Output:
+-9223372036854775808
+Test Case 273 Input:
+-2312345
+Output:
+-9223372036854775808
+Test Case 274 Input:
+50-21-345
+Output:
+-25
+Test Case 275 Input:
+5-1012345
+Output:
+-16
+Test Case 276 Input:
+-5312345
+Output:
+-9223372036854775808
+Test Case 277 Input:
+-5312345
+Output:
+-9223372036854775808
+Test Case 278 Input:
+00000000
+Output:
+-9223372036854775808
+Test Case 279 Input:
+0-1-2-3-4-5
+Output:
+-9223372036854775808
+Test Case 280 Input:
+-13-21-345
+Output:
+-9223372036854775808
+Test Case 281 Input:
+-13-21-345
+Output:
+-9223372036854775808
+Test Case 282 Input:
+-13-21-345
+Output:
+-9223372036854775808
+Test Case 283 Input:
+-13-21-345
+Output:
+-9223372036854775808
+Test Case 284 Input:
+-50-21-345
+Output:
+-9223372036854775808
+Test Case 285 Input:
+-53-1-2-3-4-5
+Output:
+-9223372036854775808
+Test Case 286 Input:
+-13-21-345
+Output:
+-9223372036854775808
+Test Case 287 Input:
+-105-21-345Explanation: The input values include a negative integer (-10) for the variable 'n' and a positive integer (5) for the variable 'k'.
+Output:
+-9223372036854775808
+Test Case 288 Input:
+-13-21-345
+Output:
+-9223372036854775808
+Test Case 289 Input:
+-50-1234-5
+Output:
+-9223372036854775808
+Test Case 290 Input:
+3-12-345
+Output:
+-16
+Test Case 291 Input:
+00000000
+Output:
+-9223372036854775808
+Test Case 292 Input:
+00
+Output:
+-9223372036854775808
+Test Case 293 Input:
+00
+Output:
+-9223372036854775808
+Test Case 294 Input:
+-13-21-345
+Output:
+-9223372036854775808
+Test Case 295 Input:
+-5-3-1-2-3-4-5
+Output:
+-9223372036854775808
+Test Case 296 Input:
+-13-21-345
+Output:
+-9223372036854775808
+Test Case 297 Input:
+-50000000
+Output:
+-9223372036854775808
+Test Case 298 Input:
+30-21-345
+Output:
+-9
+Test Case 299 Input:
+-10-23-45
+Output:
+-9223372036854775808
+Test Case 300 Input:
+50-21-345
+Output:
+-25
+Test Case 301 Input:
+-10000000
+Output:
+-9223372036854775808
+Test Case 302 Input:
+-13-21-345
+Output:
+-9223372036854775808
+Test Case 303 Input:
+01-2-345
+Output:
+-9223372036854775808
+Test Case 304 Input:
+11
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 305 Input:
+-50-1-2-3-4-5
+Output:
+-9223372036854775808
+Test Case 306 Input:
+00000000
+Output:
+-9223372036854775808
+Test Case 307 Input:
+00
+Output:
+-9223372036854775808
+Test Case 308 Input:
+0512345
+Output:
+-9223372036854775808
+Test Case 309 Input:
+2-11-2Test Case Input:401-23
+Output:
+-4
+Test Case 310 Input:
+-10000000
+Output:
+-9223372036854775808
+Test Case 311 Input:
+-53-1-2-3-4-5
+Output:
+-9223372036854775808
+Test Case 312 Input:
+00
+Output:
+-9223372036854775808
+Test Case 313 Input:
+-10100000
+Output:
+-9223372036854775808
+Test Case 314 Input:
+00
+Output:
+-9223372036854775808
+Test Case 315 Input:
+-10-2-345
+Output:
+-9223372036854775808
+Test Case 316 Input:
+-10-21-345
+Output:
+-9223372036854775808
+Test Case 317 Input:
+-10000000
+Output:
+-9223372036854775808
+Test Case 318 Input:
+-13-21-345
+Output:
+-9223372036854775808
+Test Case 319 Input:
+-13-21-345
+Output:
+-9223372036854775808
+Test Case 320 Input:
+-13-21-345
+Output:
+-9223372036854775808
+Test Case 321 Input:
+00
+Output:
+-9223372036854775808
+Test Case 322 Input:
+-50-12345
+Output:
+-9223372036854775808
+Test Case 323 Input:
+-321-2
+Output:
+-9223372036854775808
+Test Case 324 Input:
+-50-12-34-5
+Output:
+-9223372036854775808
+Test Case 325 Input:
+2345
+Output:
+25
+Test Case 326 Input:
+00
+Output:
+-9223372036854775808
+Test Case 327 Input:
+5-21-345
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 328 Input:
+50
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 329 Input:
+00
+Output:
+-9223372036854775808
+Test Case 330 Input:
+00
+Output:
+-9223372036854775808
+Test Case 331 Input:
+431234
+Output:
+4
+Test Case 332 Input:
+5312345
+Output:
+4
+Test Case 333 Input:
+53123-4-5
+Output:
+-10
+Test Case 334 Input:
+5312345
+Output:
+4
+Test Case 335 Input:
+321-23
+Output:
+-2
+Test Case 336 Input:
+531-23-40
+Output:
+-4
+Test Case 337 Input:
+531-23-40
+Output:
+-4
+Test Case 338 Input:
+53-2-5034
+Output:
+-8
+Test Case 339 Input:
+32123
+Output:
+3
+Test Case 340 Input:
+53-210-34
+Output:
+-3
+Test Case 341 Input:
+"abc"3-210-34
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 342 Input:
+50-210-34
+Output:
+-16
+Test Case 343 Input:
+"5" "3" "-2" "1" "0" "-3" "4"
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 344 Input:
+-503-210-34
+Output:
+-9223372036854775808
+Test Case 345 Input:
+12-13456
+Output:
+1
+Test Case 346 Input:
+50-210-34
+Output:
+-16
+Test Case 347 Input:
+"abc"5-210-34
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 348 Input:
+"5" "3" "-2" "1" "0" "-3" "4"
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 349 Input:
+501234-5-6-789Test Case Output:4
+Output:
+-25
+Test Case 350 Input:
+21-10Test Case Input:42-10502Test Case Input:30-213
+Output:
+0
+Test Case 351 Input:
+21-10
+Output:
+0
+Test Case 352 Input:
+-5230-2104
+Output:
+-9223372036854775808
+Test Case 353 Input:
+-523-104-25
+Output:
+-9223372036854775808
+Test Case 354 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 355 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 356 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 357 Input:
+-12014-53
+Output:
+-9223372036854775808
+Test Case 358 Input:
+11-1
+Output:
+1
+Test Case 359 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 360 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 361 Input:
+-153-210-34
+Output:
+-9223372036854775808
+Test Case 362 Input:
+-234-102-5Test Case Input:100-351-24-239-17Test Case Input:61-420-13Test Case Input:8-5-310-24-12Test Case Input:324-3Test Case Input:70-1-235-42
+Output:
+-9223372036854775808
+Test Case 363 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 364 Input:
+-324-50-21
+Output:
+-9223372036854775808
+Test Case 365 Input:
+0000000
+Output:
+-9223372036854775808
+Test Case 366 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 367 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 368 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 369 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 370 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 371 Input:
+53-210-34
+Output:
+-3
+Test Case 372 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 373 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 374 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 375 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 376 Input:
+00
+Output:
+-9223372036854775808
+Test Case 377 Input:
+05-210-34
+Output:
+-9223372036854775808
+Test Case 378 Input:
+502-13-21
+Output:
+-9
+Test Case 379 Input:
+-2013-12-4
+Output:
+-9223372036854775808
+Test Case 380 Input:
+-103-210-34
+Output:
+-9223372036854775808
+Test Case 381 Input:
+-23-102-34
+Output:
+-9223372036854775808
+Test Case 382 Input:
+00
+Output:
+-9223372036854775808
+Test Case 383 Input:
+-13-210-34
+Output:
+-9223372036854775808
+Test Case 384 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 385 Input:
+00
+Output:
+-9223372036854775808
+Test Case 386 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 387 Input:
+20-10
+Output:
+-1
+Test Case 388 Input:
+5023-14Test Case Input:3-251Test Case Input:-4-2031Test Case Input:2-10Test Case Input:63-1042-3Test Case Input:012345Test Case Input:-350-1423
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 389 Input:
+-30213
+Output:
+-9223372036854775808
+Test Case 390 Input:
+2-10
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 391 Input:
+00
+Output:
+-9223372036854775808
+Test Case 392 Input:
+a2
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 393 Input:
+"hello"3-210-34
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 394 Input:
+3-210-3Test Case Input:42-10502Test Case Input:-53-210-34Test Case Input:2-10Test Case Input:53-210-34
+Output:
+-9
+Test Case 395 Input:
+00
+Output:
+-9223372036854775808
+Test Case 396 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 397 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 398 Input:
+00
+Output:
+-9223372036854775808
+Test Case 399 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 400 Input:
+00
+Output:
+-9223372036854775808
+Test Case 401 Input:
+-3012345678910
+Output:
+-9223372036854775808
+Test Case 402 Input:
+5-2-5310-34
+Output:
+-25
+Test Case 403 Input:
+-23-4105-3
+Output:
+-9223372036854775808
+Test Case 404 Input:
+5210-34
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 405 Input:
+5-2-53-210-34
+Output:
+-25
+Test Case 406 Input:
+50-210-34
+Output:
+-16
+Test Case 407 Input:
+-11
+Output:
+-9223372036854775808
+Test Case 408 Input:
+-103-210-34
+Output:
+-9223372036854775808
+Test Case 409 Input:
+00
+Output:
+-9223372036854775808
+Test Case 410 Input:
+00
+Output:
+-9223372036854775808
+Test Case 411 Input:
+00
+Output:
+-9223372036854775808
+Test Case 412 Input:
+-120000-1-2-3-4-5
+Output:
+-9223372036854775808
+Test Case 413 Input:
+53-210-34
+Output:
+-3
+Test Case 414 Input:
+a3-210-34
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 415 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 416 Input:
+32-503
+Output:
+0
+Test Case 417 Input:
+55-210-34
+Output:
+0
+Test Case 418 Input:
+00
+Output:
+-9223372036854775808
+Test Case 419 Input:
+00
+Output:
+-9223372036854775808
+Test Case 420 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 421 Input:
+00
+Output:
+-9223372036854775808
+Test Case 422 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 423 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 424 Input:
+-30-210-34
+Output:
+-9223372036854775808
+Test Case 425 Input:
+00
+Output:
+-9223372036854775808
+Test Case 426 Input:
+00
+Output:
+-9223372036854775808
+Test Case 427 Input:
+-22
+Output:
+-9223372036854775808
+Test Case 428 Input:
+2-10
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 429 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 430 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 431 Input:
+00
+Output:
+-9223372036854775808
+Test Case 432 Input:
+00
+Output:
+-9223372036854775808
+Test Case 433 Input:
+00
+Output:
+-9223372036854775808
+Test Case 434 Input:
+2-10
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 435 Input:
+00
+Output:
+-9223372036854775808
+Test Case 436 Input:
+00
+Output:
+-9223372036854775808
+Test Case 437 Input:
+-53-210-34
+Output:
+-9223372036854775808
+Test Case 438 Input:
+00
+Output:
+-9223372036854775808
+Test Case 439 Input:
+500000
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 440 Input:
+00
+Output:
+-9223372036854775808
+Test Case 441 Input:
+531-23-45
+Output:
+-10
+Test Case 442 Input:
+32123
+Output:
+3
+Test Case 443 Input:
+32-12-3
+Output:
+-2
+Test Case 444 Input:
+53-201-32
+Output:
+-3
+Test Case 445 Input:
+531-23-40
+Output:
+-4
+Test Case 446 Input:
+431234
+Output:
+4
+Test Case 447 Input:
+5 32 -3 4 0 -1
+Output:
+-4
+Test Case 448 Input:
+321-23
+Output:
+-2
+Test Case 449 Input:
+321-23
+Output:
+-2
+Test Case 450 Input:
+531-23-40
+Output:
+-4
+Test Case 451 Input:
+"5" "3""1""-2""3""-4""0"
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 452 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 453 Input:
+531-23-40
+Output:
+-4
+Test Case 454 Input:
+2-305Test Case Output:-9
+Output:
+-25
+Test Case 455 Input:
+531-23-40
+Output:
+-4
+Test Case 456 Input:
+-302-5134
+Output:
+-9223372036854775808
+Test Case 457 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 458 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 459 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 460 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 461 Input:
+301-23-40
+Output:
+-9
+Test Case 462 Input:
+501-23-40
+Output:
+-16
+Test Case 463 Input:
+"a"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 464 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 465 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 466 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 467 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 468 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 469 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 470 Input:
+20-35Test Case Input:0-3520Test Case Input:-1320-3Test Case Input:-20352
+Output:
+-25
+Test Case 471 Input:
+3-52-34
+Output:
+-16
+Test Case 472 Input:
+-1320-3-20352
+Output:
+-9223372036854775808
+Test Case 473 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 474 Input:
+0-3520
+Output:
+-9223372036854775808
+Test Case 475 Input:
+-1320-3
+Output:
+-9223372036854775808
+Test Case 476 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 477 Input:
+-20352
+Output:
+-9223372036854775808
+Test Case 478 Input:
+1"abc"
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:19)
+	at Main.main(Main.java:15)
+Test Case 479 Input:
+-1320-3
+Output:
+-9223372036854775808
+Test Case 480 Input:
+-32-1503
+Output:
+-9223372036854775808
+Test Case 481 Input:
+0-3520
+Output:
+-9223372036854775808
+Test Case 482 Input:
+-20352
+Output:
+-9223372036854775808
+Test Case 483 Input:
+0000000
+Output:
+-9223372036854775808
+Test Case 484 Input:
+0-3520
+Output:
+-9223372036854775808
+Test Case 485 Input:
+Hello31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 486 Input:
+-20352
+Output:
+-9223372036854775808
+Test Case 487 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 488 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 489 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 490 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 491 Input:
+00
+Output:
+-9223372036854775808
+Test Case 492 Input:
+-1320-3
+Output:
+-9223372036854775808
+Test Case 493 Input:
+-10-352
+Output:
+-9223372036854775808
+Test Case 494 Input:
+-1320-3
+Output:
+-9223372036854775808
+Test Case 495 Input:
+-32-1503
+Output:
+-9223372036854775808
+Test Case 496 Input:
+-1320-3
+Output:
+-9223372036854775808
+Test Case 497 Input:
+20-35
+Output:
+-25
+Test Case 498 Input:
+1057-402-63-19-2
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 499 Input:
+501234
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 500 Input:
+-32-1503
+Output:
+-9223372036854775808
+Test Case 501 Input:
+-43-2013-5
+Output:
+-9223372036854775808
+Test Case 502 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 503 Input:
+-1320-3
+Output:
+-9223372036854775808
+Test Case 504 Input:
+-20352
+Output:
+-9223372036854775808
+Test Case 505 Input:
+-20352
+Output:
+-9223372036854775808
+Test Case 506 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 507 Input:
+-10-35-4
+Output:
+-9223372036854775808
+Test Case 508 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 509 Input:
+-1320-3
+Output:
+-9223372036854775808
+Test Case 510 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 511 Input:
+501-23-40
+Output:
+-16
+Test Case 512 Input:
+-32-1503
+Output:
+-9223372036854775808
+Test Case 513 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 514 Input:
+-20352
+Output:
+-9223372036854775808
+Test Case 515 Input:
+-1320-3
+Output:
+-9223372036854775808
+Test Case 516 Input:
+0-3520
+Output:
+-9223372036854775808
+Test Case 517 Input:
+-1320-3
+Output:
+-9223372036854775808
+Test Case 518 Input:
+-1320-3
+Output:
+-9223372036854775808
+Test Case 519 Input:
+-1320-3
+Output:
+-9223372036854775808
+Test Case 520 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 521 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 522 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 523 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 524 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 525 Input:
+"five"
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 526 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 527 Input:
+"five" 3 1 -2 3 -4 0
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 528 Input:
+-20352
+Output:
+-9223372036854775808
+Test Case 529 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 530 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 531 Input:
+00
+Output:
+-9223372036854775808
+Test Case 532 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 533 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 534 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 535 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 536 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 537 Input:
+-1320-3
+Output:
+-9223372036854775808
+Test Case 538 Input:
+500-23-40
+Output:
+-16
+Test Case 539 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 540 Input:
+0-3520
+Output:
+-9223372036854775808
+Test Case 541 Input:
+531-23-40
+Output:
+-4
+Test Case 542 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 543 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 544 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 545 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 546 Input:
+2.531-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 547 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 548 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 549 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 550 Input:
+"five"31-23-40
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 551 Input:
+00
+Output:
+-9223372036854775808
+Test Case 552 Input:
+-20352
+Output:
+-9223372036854775808
+Test Case 553 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 554 Input:
+031-23-40
+Output:
+-9223372036854775808
+Test Case 555 Input:
+0-3520
+Output:
+-9223372036854775808
+Test Case 556 Input:
+"five"
+Error:
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+	at Main.solve(Main.java:18)
+	at Main.main(Main.java:15)
+Test Case 557 Input:
+50-23-40
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
+Test Case 558 Input:
+00
+Output:
+-9223372036854775808
+Test Case 559 Input:
+-531-23-40
+Output:
+-9223372036854775808
+Test Case 560 Input:
+10-5-231-42-105-3
+Error:
+Exception in thread "main" java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
+	at java.base/java.util.Scanner.next(Scanner.java:1602)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2382)
+	at java.base/java.util.Scanner.nextLong(Scanner.java:2337)
+	at Main.solve(Main.java:24)
+	at Main.main(Main.java:15)
