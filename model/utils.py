@@ -112,6 +112,6 @@ def save_cycle_response(json_filepath, response):
         json.dump(data, json_file, indent=2)
 
 def save_java_execution_output(submission_id, output):
-    output_filepath = f"C:/Users/hridy/Documents/PhD_Research/ICSE'25/MostRecent/FuzzWise/FuzzWise/fuzzwise_outputs/{submission_id}_output.txt"
+    output_filepath = f"../fuzzwise_outputs/{submission_id}_output.txt"
     with open(output_filepath, 'w', encoding='utf-8') as output_file:
         output_file.write(output)
