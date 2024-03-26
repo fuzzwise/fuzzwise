@@ -1,11 +1,11 @@
-### Enhancing Fuzzing Intelligence: A Coverage-Guided Approach with FuzzWise
+## Enhancing Fuzzing Intelligence: A Coverage-Guided Approach with FuzzWise
 
 The coverage-guided fuzz testing framework serves as a systematic approach for automating software defect identification, crucial for enhancing program security and stability. Despite its widespread use, the framework faces challenges such as inefficiency and an ineffective feedback loop, hindering its effectiveness in identifying high-quality test cases and improving code coverage. To address these challenges, we propose a novel code coverage-guided fuzz testing framework, named FUZZWISE. Our framework leverages a Large Language Model (LLM)-based code coverage prediction tool to assess test quality upfront, prioritizing the execution of high-coverage test cases. Additionally, instead of traditional test mutation techniques, we employ the LLM to automatically generate test cases. These test cases undergo a feedback loop, where those contributing to higher code coverage are retained, while others are reintroduced to the LLM for refinement. Our empirical evaluation shows that FUZZWISE performs better than the conventional fuzz testing framework in efficient test case generation with higher coverage to effectively detect more runtime errors/exceptions.
 
-## Dataset
+### Dataset
 All data for reproducing the results is available in the dataset.json file.
 
-## Folder Structure 
+### Folder Structure 
 ```
 
 ├── fuzzwise
