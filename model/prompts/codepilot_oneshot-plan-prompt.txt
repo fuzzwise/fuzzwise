@@ -1,0 +1,80 @@
+For the given code snippet, associated test inputs and plan, give the code coverage that follows the plan. The code coverage indicates whether a statement has been executed or not. 
+> if the line is executed
+! if the line is not executed
+Example output:
+> line1
+! line2
+> line3
+...
+> linen
+If the test case raises an exception, provide the runtime exception raised. 
+You need to develop a plan for step by step execution of the code snippet. 
+Below is an illustration of the process you need to follow to predict the code coverage of the given code snippet, associated test inputs and its plan. 
+Test Case : 
+numDivisions = 1
+numerator = 8
+denominator = 0
+Given Java Program : 
+public class NumberDivision {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the number of divisions: ");
+        int numDivisions = scanner.nextInt();
+        for (int i = 1; i <= numDivisions; i++) {
+            int numerator = scanner.nextInt();
+            int denominator = scanner.nextInt();
+            if (numerator == 0) {
+                System.out.println("Numerator is zero");
+            }
+            else {
+                System.out.println("Numerator is non zero");
+            }
+            int result = divideNumbers(numerator, denominator);
+            System.out.println("Result for division " + (i + 1) + ": " + result);
+        }
+        scanner.close();
+    }
+    private static int divideNumbers(int numerator, int denominator) {
+        return numerator / denominator;
+    }
+}
+give the PLAN for step by step execution of the given java program and tets case-
+1. Import statements : Import statements are always executed. Statement "import java.util.Scanner;" will be covered. 
+2. NumberDivision Class Declaration : always executed. Statement "public class Main {" is covered. 
+3. Main method decalarion : always executed. Statement "public static void main(String[] args) {" is covered.
+4. User Input and Program Output : always executed. Statements "Scanner scanner = new Scanner(System.in);", "System.out.print("Enter the number of divisions: ");", "int numDivisions = scanner.nextInt();" are covered. 
+5. For loop Execution : Since numDivisions is 2, the for loop condition (i <= numDivisions) is true, and the loop block will be executed. Statement "for (int i = 1; i <= numDivisions; i++) {" will be covered. 
+6. For loop contents : user input statements are always executed. Statements "int numerator = scanner.nextInt();" and "int denominator = scanner.nextInt();" will be executed. 
+7. If - Else condition : Since the numerator is not zero, the if condition 'numerator == 0' is not satisfies. Statement 'if (numerator == 0) {' is covered but statement 'System.out.println("Numerator is zero");' is not covered. The else condition is satisfied so statements 'else {' and "System.out.println("Numerator is non zero");" are covered. 
+8. Function call within main method : The function divideNumbers will executed only if the value returned by the function is valid. 
+9. divideNumbers method Declaration and Execution : method declaration is always executed. "private static int divideNumbers(int numerator, int denominator) {" is covered. But, since the value of denominator is 0, there is a DivideByZero exception handled dies to which statement "return numerator / denominator;" isn't covered. 
+10. divideNumbers Method call in Main method : since value returned by divideNumbers is invalid, Statements "int result = divideNumbers(numerator, denominator);" and "System.out.println("Result for division " + (i + 1) + ": " + result);" are not covered. 
+11. Statements after for loop in Main method : no statements after the for loop will be executed since the for loop failed to complete execution due to an exception raised. Statement "scanner.close();" isn't covered. 
+12. Closing Brackets : always covered. 
+Final code coverage of the Java program based on its test case and given step by step reasoning for execution is : 
+> public class NumberDivision {
+>     public static void main(String[] args) {
+>         Scanner scanner = new Scanner(System.in);
+>         System.out.print("Enter the number of divisions: ");
+>         int numDivisions = scanner.nextInt();
+>         for (int i = 1; i <= numDivisions; i++) {
+>             int numerator = scanner.nextInt();
+>             int denominator = scanner.nextInt();
+>             if (numerator == 0) {
+!                 System.out.println("Numerator is zero");
+>             }
+>             else {
+>                 System.out.println("Numerator is non zero");
+>             }
+!             int result = divideNumbers(numerator, denominator);
+!             System.out.println("Result for division " + (i + 1) + ": " + result);
+>         }
+>         scanner.close();
+>     }
+>     private static int divideNumbers(int numerator, int denominator) {
+!         return numerator / denominator;
+>     }
+> }
+OUTPUT : 
+Error : Arithemetic Exception = Division by zero
+In a similar fashion, develop a plan of step by step execution of the below code snippet and predict the code coverage - 
