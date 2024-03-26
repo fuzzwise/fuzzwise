@@ -12,14 +12,14 @@ All data for reproducing the results is available in the dataset.json file.
 │   ├── model
 │   │    ├──prompts
 │   │    │    ├──code.txt
-│   │    │    ├──codepilot_main-oneshot-prompt
-│   │    │    ├──codepilot_oneshot-plan-prompt
-│   │    │    ├──cvg_prompt
-│   │    │    ├──cvg_prompt_instructions
-│   │    │    ├──tgt_coverage_prompt
-│   │    │    ├──tgt_coverage_prompt_instructions
-│   │    │    ├──tgt_exception_prompt
-│   │    │    ├──tgt_exeception_prompt_instructions
+│   │    │    ├──codepilot_main-oneshot-prompt.txt
+│   │    │    ├──codepilot_oneshot-plan-prompt.txt
+│   │    │    ├──cvg_prompt.txt
+│   │    │    ├──cvg_prompt_instructions.txt
+│   │    │    ├──tgt_coverage_prompt.txt
+│   │    │    ├──tgt_coverage_prompt_instructions.txt
+│   │    │    ├──tgt_exception_prompt.txt
+│   │    │    ├──tgt_exeception_prompt_instructions.txt
 │   │    ├──execution.py
 │   │    ├──gpt_interaction.py
 │   │    ├──pipeline.py
