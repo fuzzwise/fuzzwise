@@ -1,460 +1,0 @@
-Test Case 1 Input:
-"1""2""3""4""5"
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 2 Input:
-"1" "2" "3""4" "5" "6""7" "8" "9""3""1" "2" "3"
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 3 Input:
-"32-202"Test Case Input:"-24-305"Test Case Input:"53-2042"
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 4 Input:
-"3" "2""-2""0""2"
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 5 Input:
-"3" 2 -2 0 2
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 6 Input:
-"3" (String)"2" (String)"-2" (String)"0" (String)"2" (String)
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 7 Input:
-"3" (String)2-202
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 8 Input:
-"3" 2 -2 0 2
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 9 Input:
-"3.5""2""-2""0""2"
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 10 Input:
-"3\n2\n-2\n0\n2"
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 11 Input:
-"5""3""-2""0""4""2"
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 12 Input:
-"5" "3" "-2" "0" "4" "2"
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 13 Input:
-"a""b""c""d""e"
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 14 Input:
-"abc"2-202
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 15 Input:
-"abc"21-305
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 16 Input:
--12-305
-Error:
-Exception in thread "main" java.lang.NegativeArraySizeException: -1
-	at Main.main(Main.java:8)
-Test Case 17 Input:
--20-305
-Error:
-Exception in thread "main" java.lang.NegativeArraySizeException: -2
-	at Main.main(Main.java:8)
-Test Case 18 Input:
--24-305
-Error:
-Exception in thread "main" java.lang.NegativeArraySizeException: -2
-	at Main.main(Main.java:8)
-Test Case 19 Input:
--24005
-Error:
-Exception in thread "main" java.lang.NegativeArraySizeException: -2
-	at Main.main(Main.java:8)
-Test Case 20 Input:
--30-252
-Error:
-Exception in thread "main" java.lang.NegativeArraySizeException: -3
-	at Main.main(Main.java:8)
-Test Case 21 Input:
--301-23
-Error:
-Exception in thread "main" java.lang.NegativeArraySizeException: -3
-	at Main.main(Main.java:8)
-Test Case 22 Input:
--302-24
-Error:
-Exception in thread "main" java.lang.NegativeArraySizeException: -3
-	at Main.main(Main.java:8)
-Test Case 23 Input:
-00000
-Output:
-1
-Test Case 24 Input:
-02468
-Output:
-0
-Test Case 25 Input:
-03Test Case Input:501234Test Case Input:33123Test Case Input:3212-3Test Case Input:32123
-Output:
-0
-Test Case 26 Input:
-0 0 00 0 00 0 031 2 3
-Output:
-1
-Test Case 27 Input:
-10-1
-Output:
-1
-Test Case 28 Input:
-11-503
-Output:
-1000000002
-Test Case 29 Input:
-110
-Output:
-0
-Test Case 30 Input:
-11a1
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:10)
-Test Case 31 Input:
-11null
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:10)
-Test Case 32 Input:
-12345
-Output:
-0
-Test Case 33 Input:
-1234567893123
-Output:
-0
-Test Case 34 Input:
-123456789512345
-Output:
-0
-Test Case 35 Input:
-1 2 34 5 67 8 901 2 3
-Output:
-0
-Test Case 36 Input:
-1 2 34 5 67 8 93-1 0 1
-Output:
-0
-Test Case 37 Input:
-1 2 34 5 67 8 930 0 0
-Output:
-0
-Test Case 38 Input:
-1 2 34 5 67 8 930 1 2
-Output:
-0
-Test Case 39 Input:
-1 2 34 5 67 8 931 0 3
-Output:
-0
-Test Case 40 Input:
-1 2 34 5 67 8 931 2 3
-Output:
-0
-Test Case 41 Input:
-1 2 34 5 67 8 931 5 9
-Output:
-0
-Test Case 42 Input:
-1 2 34 5 67 8 9310 11 12
-Output:
-0
-Test Case 43 Input:
-1 2 34 5 67 8 9310 A 12
-Output:
-0
-Test Case 44 Input:
-1 2 34 5 67 8 93A B C
-Output:
-0
-Test Case 45 Input:
-1 2 34 5 67 8 93a b c
-Output:
-0
-Test Case 46 Input:
-1 2 34 5 67 8 9A
-Output:
-0
-Test Case 47 Input:
-1 2 34 5 67 8 9ATest Case Input:1 2 34 5 67 8 90Test Case Input:1 2 34 5 67 8 910Test Case Input:1 2 34 5 67 8 9-5Test Case Input:1 2 34 5 67 8 92 5 7 10Test Case Input:1 2 34 5 67 8 9-1 -2 -3Test Case Input:1 2 34 5 67 8 93 5 2Test Case Input:1 2 34 5 67 8 91 2 3 4
-Output:
-0
-Test Case 48 Input:
-1 2 34 5 67 8 9ATest Case Input:1 2 34 5 67 8 90Test Case Input:1 2 34 5 67 8 93Test Case Input:1 2 34 5 67 8 91.5Test Case Input:1 2 34 5 67 8 910
-Output:
-0
-Test Case 49 Input:
-1 2 34 5 67 8 9ATest Case Output:NumberFormatException
-Output:
-0
-Test Case 50 Input:
-1 2 34 5 67 8 9A1 2 3
-Output:
-0
-Test Case 51 Input:
-1 2 34 5 A7 8 926 7
-Output:
-0
-Test Case 52 Input:
-1 A 34 5 67 8 931 2 3
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:7)
-Test Case 53 Input:
-1 A 34 B 67 C 931 2 3
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:7)
-Test Case 54 Input:
-1.5 2.5 3.54.5 5.5 6.57.5 8.5 9.531.5 2.5 3.5
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 55 Input:
-22-10
-Output:
-0
-Test Case 56 Input:
-23-10
-Output:
-0
-Test Case 57 Input:
-23-202
-Output:
-0
-Test Case 58 Input:
-30-202
-Output:
-1
-Test Case 59 Input:
-32-120
-Output:
-1000000005
-Test Case 60 Input:
-32-202
-Output:
-1000000003
-Test Case 61 Input:
-321 -2 3
-Output:
-3
-Test Case 62 Input:
-32468
-Output:
-48
-Test Case 63 Input:
-42-305
-Error:
-Exception in thread "main" java.util.NoSuchElementException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:10)
-Test Case 64 Input:
-52-2042
-Error:
-Exception in thread "main" java.util.NoSuchElementException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:945)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:10)
-Test Case 65 Input:
-53-2-31-54
-Output:
-60
-Test Case 66 Input:
-53-240-13
-Output:
-8
-Test Case 67 Input:
-53-240-31
-Output:
-24
-Test Case 68 Input:
-531-23-40
-Output:
-24
-Test Case 69 Input:
-531-23-45
-Output:
-40
-Test Case 70 Input:
-531 -2 3 -4 5
-Output:
-40
-Test Case 71 Input:
-A B CD E FG H I3J K L
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 72 Input:
-a2-202
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 73 Input:
-a 2 34 5 67 8 931 2 3
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 74 Input:
-a b cd e fg h i2j k l
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 75 Input:
-a b cd e fg h i31 2 3
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 76 Input:
-a b cd e fg h i3j k l
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)
-Test Case 77 Input:
-a b cd e fg h i3x y z
-Error:
-Exception in thread "main" java.util.InputMismatchException
-	at java.base/java.util.Scanner.throwFor(Scanner.java:947)
-	at java.base/java.util.Scanner.next(Scanner.java:1602)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
-	at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
-	at Main.main(Main.java:6)

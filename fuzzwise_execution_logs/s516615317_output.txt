@@ -1,704 +1,0 @@
-Test Case 1 Input:
-30 1 51 2 32 0 2
-Test Case 2 Input:
-30 1 52 0 31 2 2
-Test Case 3 Input:
-30 1 21 2 30 2 4
-Test Case 4 Input:
-11 2 3
-Output:
-1
-Test Case 5 Input:
-30 1 21 2 32 0 421 2 12 0 3
-Test Case 6 Input:
-30 1 21 2 32 0 420 1 51 2 6
-Test Case 7 Input:
-11 2 5
-Output:
-1
-Test Case 8 Input:
-30 1 51 2 32 0 2
-Test Case 9 Input:
-30 1 51 2 32 0 8
-Test Case 10 Input:
-30 1 51 2 32 0 2
-Test Case 11 Input:
-30 1 51 2 32 0 "2"
-Test Case 12 Input:
-50 1 51 2 32 0 23 2 44 1 2
-Test Case 13 Input:
-20 1 51 2 3
-Test Case 14 Input:
-30 1 51 2 32 0 2
-Test Case 15 Input:
-20 1 31 2 4
-Test Case 16 Input:
-10 1 5
-Test Case 17 Input:
-10 1 5
-Test Case 18 Input:
-20 1 51 2 3
-Test Case 19 Input:
-20 1 31 2 2
-Test Case 20 Input:
-00 1 51 2 32 0 2
-Test Case 21 Input:
-30 1 51 2 32 0 2
-Test Case 22 Input:
-10 1 5
-Test Case 23 Input:
-30 1 51 2 32 0 22 0 2Note: This test case is the same as the first test case in the previously generated test cases.
-Test Case 24 Input:
--20 1 51 2 32 0 2
-Test Case 25 Input:
-30 1 51 2 32 0 2
-Test Case 26 Input:
-10 1 51 2 32 0 23
-Test Case 27 Input:
-10 1 5
-Test Case 28 Input:
-20 1 51 2 3
-Test Case 29 Input:
-41 2 32 3 43 4 54 5 6
-Output:
-4
-Test Case 30 Input:
-30 1 51 2 32 0 2
-Test Case 31 Input:
-a0 1 51 2 32 0 2
-Test Case 32 Input:
-20 1 51 2 3
-Test Case 33 Input:
--10 1 51 2 32 0 2
-Test Case 34 Input:
-30 1 51 2 32 0 2
-Test Case 35 Input:
-30 1 51 2 32 0 2
-Test Case 36 Input:
-a0 1 51 2 32 0 2
-Test Case 37 Input:
-20 1 51 2 3
-Test Case 38 Input:
-a0 1 51 2 32 0 2
-Test Case 39 Input:
-20 1 101 2 5
-Test Case 40 Input:
-Test Case Input:0Test Case Input:30 1 51 2 32 0 2Test Case Input:30 1 51 2 32 0 2Test Case Input:40 1 21 2 32 3 43 0 5Test Case Input:20 1 51 2 3
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Case"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 41 Input:
-0Test Case Input:30 1 51 2 32 0 2Test Case Input:20 1 51 2 3Test Case Input:40 1 21 2 32 3 43 0 5
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Test"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 42 Input:
-0Test Case Input:30 1 51 2 32 0 2Test Case Input:-21 2 33 4 56 7 8Test Case Input:"abc"Test Case Input:50 1 2 3 41 2 3 4 52 3 4 5 63 4 5 6 74 5 6 7 8
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Test"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 43 Input:
-20 1 51 2 3
-Test Case 44 Input:
-Test Case Input:
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Case"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 45 Input:
-30 1 51 2 32 0 2
-Test Case 46 Input:
-30 1 51 2 32 0 2
-Test Case 47 Input:
-Test Case Input:30 1 51 2 32 0 2Test Case Input:0
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Case"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 48 Input:
-Test Case Input:Test Case Input:Test Case Input:0Test Case Input:30 1 51 2 32 0 2Test Case Input:30 1 51 2 32 0 2Test Case Input:40 1 21 2 32 3 43 0 5Test Case Input:20 1 51 2 3
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Case"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 49 Input:
-30 1 51 2 32 0 2
-Test Case 50 Input:
-a0 1 51 2 32 0 2
-Test Case 51 Input:
-10 1 51 2 32 0 2
-Test Case 52 Input:
-20 1 51 2 3
-Test Case 53 Input:
-a0 1 51 2 32 0 2
-Test Case 54 Input:
-Test Case Input:Test Case Input:Test Case Input:Test Case Input:Test Case Input:Test Case Input:Test Case Input:Test Case Input:Test Case Input:
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Case"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 55 Input:
-a0 1 51 2 32 0 2
-Test Case 56 Input:
-a0 1 51 2 32 0 2
-Test Case 57 Input:
-30 1 51 2 32 0 2
-Test Case 58 Input:
-30 1 51 2 32 0 2
-Test Case 59 Input:
-Test Case Input: 30 1 51 2 32 0 2
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Case"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 60 Input:
-a0 1 51 2 32 0 2
-Test Case 61 Input:
-30 1 51 2 32 0 2
-Test Case 62 Input:
-a0 1 51 2 32 0 2
-Test Case 63 Input:
-a0 1 51 2 32 0 2
-Test Case 64 Input:
-10 1 51 2 32 0 23
-Test Case 65 Input:
-30 1 51 2 32 0 2
-Test Case 66 Input:
--10 1 51 2 32 0 2
-Test Case 67 Input:
-20 1 51 2 3
-Test Case 68 Input:
-Test Case Input:30 1 51 2 32 0 2
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Case"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 69 Input:
-Test Case Input:30 1 51 2 32 0 2
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Case"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 70 Input:
-30 1 51 2 32 0 2
-Test Case 71 Input:
-a0 1 51 2 32 0 2
-Test Case 72 Input:
-30 1 51 2 32 0 2
-Test Case 73 Input:
-Test Case Input:30 1 51 2 32 0 2
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Case"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 74 Input:
-30 1 51 2 32 0 2
-Test Case 75 Input:
-Test Case Input:
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Case"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 76 Input:
-30 1 51 2 32 0 2
-Test Case 77 Input:
-a0 1 51 2 32 0 2
-Test Case 78 Input:
-30 1 51 2 32 0 2
-Test Case 79 Input:
-30 1 51 2 32 0 2
-Test Case 80 Input:
--10 1 51 2 32 0 2
-Test Case 81 Input:
-30 1 51 2 32 0 2
-Test Case 82 Input:
--10 1 51 2 32 0 2
-Test Case 83 Input:
--20 1 51 2 32 0 2
-Test Case 84 Input:
-30 1 51 2 32 0 2
-Test Case 85 Input:
--10 1 51 2 32 0 2
-Test Case 86 Input:
--0 1 51 2 32 0 23 0 2Test Case Input:null0 1 51 2 32 0 23 0 2Test Case Input:70 1 -51 2 32 0 23 0 2Test Case Input:30 1 51 2 32 0 23 0 -2Test Case Input:20 1 51 2 32 0 23 0 2Test Case Input:30 1 51 2 32 0 23 0 2Test Case Input:40 1 21 2 32 3 43 0 5Test Case Input:20 1 51 2 3Test Case Input:a0 1 51 2 32 0 23 0 2Test Case Input:null0 1 51 2 32 0 23 0 2Test Case Input:30 1 51 2 32 0 23 0 2Test Case Input:-10 1 51 2 32 0 2
-Test Case 87 Input:
--10 1 51 2 32 0 2
-Test Case 88 Input:
--10 1 51 2 32 0 2
-Test Case 89 Input:
-a0 1 51 2 32 0 2
-Test Case 90 Input:
-a0 1 51 2 32 0 2
-Test Case 91 Input:
-11 2 3
-Output:
-1
-Test Case 92 Input:
-1a b c0 1 51 2 32 0 2
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "a"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 93 Input:
-0Test Case Input:30 1 51 2 32 0 2Test Case Input:40 1 21 2 32 3 43 0 5Test Case Input:20 1 51 2 3Test Case Input:a0 1 51 2 32 0 2Test Case Input:-10 1 51 2 32 0 2Test Case Input:a0 1 51 2 32 0 2
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Test"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 94 Input:
-30 1 51 2 32 0 2
-Test Case 95 Input:
--0 1 51 2 32 0 2
-Test Case 96 Input:
-30 1 51 2 32 0 2
-Test Case 97 Input:
-10 1 51 2 32 0 2
-Test Case 98 Input:
--10 1 51 2 32 0 2
-Test Case 99 Input:
--10 1 51 2 32 0 2
-Test Case 100 Input:
-30 1 51 2 32 0 2
-Test Case 101 Input:
-Test Case Input: 30 1 51 2 32 0 2Test Case Input:
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Case"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 102 Input:
-a0 1 51 2 32 0 2
-Test Case 103 Input:
-a0 1 51 2 32 0 2
-Test Case 104 Input:
--10 1 51 2 32 0 2
-Test Case 105 Input:
-30 1 51 2 32 0 2
-Test Case 106 Input:
--10 1 51 2 32 0 2
-Test Case 107 Input:
-0
-Error:
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.length()" because "str" is null
-	at java.base/java.util.StringTokenizer.<init>(StringTokenizer.java:199)
-	at java.base/java.util.StringTokenizer.<init>(StringTokenizer.java:236)
-	at Main$FastScanner.next(Main.java:36)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 108 Input:
-a0 1 51 2 32 0 2
-Test Case 109 Input:
-00 1 51 2 32 0 2
-Test Case 110 Input:
-a0 1 51 2 32 0 2
-Test Case 111 Input:
-a0 1 51 2 32 0 2
-Test Case 112 Input:
--10 1 51 2 32 0 2
-Test Case 113 Input:
-a0 1 51 2 32 0 2
-Test Case 114 Input:
--10 1 51 2 32 0 2
-Test Case 115 Input:
-30 1 51 2 32 0 2
-Test Case 116 Input:
-30 1 51 2 32 0 2
-Test Case 117 Input:
-00 1 51 2 32 0 2
-Test Case 118 Input:
--10 1 51 2 32 0 2
-Test Case 119 Input:
-00 1 51 2 32 0 2
-Test Case 120 Input:
-1a 1 51 2 32 0 2
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "a"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 121 Input:
-30 1 51 2 32 0 2
-Test Case 122 Input:
-30 1 51 2 32 0 2
-Test Case 123 Input:
-Test Case Input:30 1 51 2 32 0 2
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Case"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 124 Input:
-20 11 2
-Test Case 125 Input:
-a0 1 51 2 32 0 2
-Test Case 126 Input:
-a0 1 51 2 32 0 2
-Test Case 127 Input:
-0Test Case Input:20 1 51 2 3Test Case Input:30 1 51 2 32 0 2Test Case Input:a0 1 51 2 32 0 2Test Case Input:1a 1 51 2 32 0 2
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Test"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 128 Input:
-30 1 51 2 32 0 2
-Test Case 129 Input:
--10 1 51 2 32 0 2
-Test Case 130 Input:
-a0 1 51 2 32 0 2
-Test Case 131 Input:
-a0 1 51 2 32 0 2
-Test Case 132 Input:
-a0 1 51 2 32 0 2
-Test Case 133 Input:
-a0 1 51 2 32 0 2
-Test Case 134 Input:
--10 1 51 2 32 0 2
-Test Case 135 Input:
-3a b cd e fg h i
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "a"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 136 Input:
-10 1 51 2 32 0 2
-Test Case 137 Input:
--10 1 51 2 32 0 2
-Test Case 138 Input:
-30 1 51 2 32 0 2
-Test Case 139 Input:
-a0 1 51 2 32 0 2
-Test Case 140 Input:
-20 1 51 2 3
-Test Case 141 Input:
--10 1 51 2 32 0 2
-Test Case 142 Input:
-30 1 51 2 32 0 2
-Test Case 143 Input:
-a0 1 51 2 32 0 2
-Test Case 144 Input:
-a0 1 51 2 32 0 2
-Test Case 145 Input:
-a0 1 51 2 32 0 2
-Test Case 146 Input:
--10 1 51 2 32 0 2
-Test Case 147 Input:
-a0 1 51 2 32 0 2
-Test Case 148 Input:
-Test Case Input:
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Case"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 149 Input:
--10 1 51 2 32 0 2
-Test Case 150 Input:
-40 1 21 2 32 3 43 0 5
-Test Case 151 Input:
--10 1 51 2 32 0 2
-Test Case 152 Input:
-a0 1 51 2 32 0 2
-Test Case 153 Input:
-30 1 51 2 32 0 2
-Test Case 154 Input:
-30 1 51 2 32 0 2
-Test Case 155 Input:
-a0 1 51 2 32 0 2
-Test Case 156 Input:
-00 1 51 2 32 0 2
-Test Case 157 Input:
-a0 1 51 2 32 0 2
-Test Case 158 Input:
-a0 1 51 2 32 0 2
-Test Case 159 Input:
-30 1 51 2 32 0 2
-Test Case 160 Input:
-Test Case Input:10 1 51 2 32 0 2
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Case"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 161 Input:
-11
-Output:
-1
-Test Case 162 Input:
-11
-Output:
-1
-Test Case 163 Input:
-0 6
-Output:
-0
-Test Case 164 Input:
-11
-Output:
-1
-Test Case 165 Input:
-11
-Output:
-1
-Test Case 166 Input:
-"11111"5
-Output:
--14
-Test Case 167 Input:
-11
-Output:
-1
-Test Case 168 Input:
-01
-Output:
-0
-Test Case 169 Input:
-"12345"6
-Output:
--14
-Test Case 170 Input:
-11
-Output:
-1
-Test Case 171 Input:
-"123"3
-Output:
--14
-Test Case 172 Input:
-"1234"5
-Output:
--14
-Test Case 173 Input:
-"123"5
-Output:
--14
-Test Case 174 Input:
-"abc"3
-Output:
--14
-Test Case 175 Input:
--50
-Test Case 176 Input:
-"123"4
-Output:
--14
-Test Case 177 Input:
-"abc"3
-Output:
--14
-Test Case 178 Input:
-"abc"3
-Output:
--14
-Test Case 179 Input:
-"Hello"2
-Output:
--14
-Test Case 180 Input:
-"abc"2
-Output:
--14
-Test Case 181 Input:
--13
-Output:
--3
-Test Case 182 Input:
--12
-Output:
--3
-Test Case 183 Input:
-abc0
-Test Case 184 Input:
-null5
-Output:
-62
-Test Case 185 Input:
-null2
-Output:
-62
-Test Case 186 Input:
-abc3
-Output:
-49
-Test Case 187 Input:
-a0
-Test Case 188 Input:
--23
-Output:
--3
-Test Case 189 Input:
--52
-Output:
--3
-Test Case 190 Input:
--52
-Output:
--3
-Test Case 191 Input:
-null2
-Output:
-62
-Test Case 192 Input:
-1234
-Output:
-2
-Test Case 193 Input:
-null2
-Output:
-62
-Test Case 194 Input:
--51
-Output:
--3
-Test Case 195 Input:
-null2
-Output:
-62
-Test Case 196 Input:
-abc0
-Test Case 197 Input:
-"abc"2
-Output:
--14
-Test Case 198 Input:
-null3
-Output:
-62
-Test Case 199 Input:
-null2
-Output:
-62
-Test Case 200 Input:
-1abc
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "abc"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 201 Input:
--51
-Output:
--3
-Test Case 202 Input:
--51
-Output:
--3
-Test Case 203 Input:
-1-5
-Test Case 204 Input:
--52
-Output:
--3
-Test Case 205 Input:
-2abc
-Error:
-Exception in thread "main" java.lang.NumberFormatException: For input string: "abc"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:662)
-	at java.base/java.lang.Integer.parseInt(Integer.java:778)
-	at Main$FastScanner.nextInt(Main.java:47)
-	at Main.solve(Main.java:13)
-	at Main.main(Main.java:8)
-Test Case 206 Input:
-null2
-Output:
-62
-Test Case 207 Input:
--53
-Output:
--3
-Test Case 208 Input:
-null1
-Output:
-62
-Test Case 209 Input:
-null2
-Output:
-62
-Test Case 210 Input:
-10
