@@ -1,0 +1,14 @@
+Generate a single test case without providing an explanation or a note for to raise the following scenarios in a Java program:
+
+InputMismatchException: Provide an input value that whose data type is different than the one specified. 
+ArithmeticException: Test cases that could raise arithmetic exceptions include division by zero, overflow, underflow, and attempts to perform invalid operations such as taking the square root of a negative number.
+NullPointerException: Create a scenario where a variable is explicitly set to null before usage.
+NumberFormatException: Input a value that cannot be parsed to the expected data type (e.g., a non-numeric string).
+ArrayIndexOutOfBoundsException or IndexOutOfBoundsException: Design input values that lead to accessing array or list indices beyond their bounds.
+
+Ensure the test case input is in the following format:
+Test Case Input:
+<input 1>
+<input 2>...
+Generate a single test case without providing an explanation or any additional information for the below Java program:
+

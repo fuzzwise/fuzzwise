@@ -1,0 +1,5 @@
+Generate a single test case without an exaplnation or any additional information for a Java program to cover uncovered lines of code denoted by '!'. Provide only the test input without explanations. Consider various conditions, edge cases, and typical use cases.
+Ensure the test case input is in the following format:
+Test Case Input:
+<input 1>
+<input 2>...
