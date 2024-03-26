@@ -33,7 +33,7 @@ All data for reproducing the results is available in the dataset.json file.
 │   └── README.md
 ```
 
-## Procedure to fuzz a the dataset using FuzzWise
+## Procedure to fuzz the dataset using FuzzWise
 
 1. Clone the official github repository for FuzzWise
 ```
