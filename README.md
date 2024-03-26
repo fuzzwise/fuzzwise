@@ -33,13 +33,13 @@ All data for reproducing the results is available in the dataset.json file.
 │   └── README.md
 ```
 
-## Procedure to fuzz a target program using FuzzWise
+## Procedure to fuzz a the dataset using FuzzWise
 
 1. Clone the official github repository for FuzzWise
 ```
 git clone https://github.com/fuzzwise/fuzzwise.git
 ```
-2. Add the target code to be fuzzed in the 'code.txt' file
+2. Add the necessary paths required for fuzzing
 3. Run the 'pipeline.py' file 
 
 
