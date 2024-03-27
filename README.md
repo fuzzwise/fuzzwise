@@ -3,7 +3,9 @@
 The coverage-guided fuzz testing framework serves as a systematic approach for automating software defect identification, crucial for enhancing program security and stability. Despite its widespread use, the framework faces challenges such as inefficiency and an ineffective feedback loop, hindering its effectiveness in identifying high-quality test cases and improving code coverage. To address these challenges, we propose a novel code coverage-guided fuzz testing framework, named FUZZWISE. Our framework leverages a Large Language Model (LLM)-based code coverage prediction tool to assess test quality upfront, prioritizing the execution of high-coverage test cases. Additionally, instead of traditional test mutation techniques, we employ the LLM to automatically generate test cases. These test cases undergo a feedback loop, where those contributing to higher code coverage are retained, while others are reintroduced to the LLM for refinement. Our empirical evaluation shows that FUZZWISE performs better than the conventional fuzz testing framework in efficient test case generation with higher coverage to effectively detect more runtime errors/exceptions.
 
 ### Dataset
-All data for reproducing the results is available in the dataset.json file.
+All data for reproducing the results is available in the final_dataset.json file.
+
+The dataset for FuzzWise has been tested on a subset derived from [FixExal](https://arxiv.org/abs/2206.07796)
 
 ### Folder Structure 
 ```
@@ -39,7 +41,8 @@ All data for reproducing the results is available in the dataset.json file.
 ```
 git clone https://github.com/fuzzwise/fuzzwise.git
 ```
-2. Add the necessary paths required for fuzzing
-3. Run the 'pipeline.py' file 
+2. Add the necessary paths required for fuzzing in model/pipeline.py
+3. Add the API keys and endpoints in model/gpt_interaction.py
+4. Run the 'model/pipeline.py' file 
 
 
