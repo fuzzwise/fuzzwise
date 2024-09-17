@@ -13,8 +13,12 @@ The dataset for FuzzWise has been tested on a subset derived from [FixExal](http
 
 ├── fuzzwise
 │   ├── model
-│   │    ├──prompts
-│   │    │    ├──code.txt
+│   │    ├──execution.py
+│   │    ├──gpt.py
+│   │    ├──pipeline.py
+│   │    ├──utils.py
+|   ├──prompts
+│   │    ├──java
 │   │    │    ├──codepilot_main-oneshot-prompt.txt
 │   │    │    ├──codepilot_oneshot-plan-prompt.txt
 │   │    │    ├──cvg_prompt.txt
@@ -23,12 +27,21 @@ The dataset for FuzzWise has been tested on a subset derived from [FixExal](http
 │   │    │    ├──tgt_coverage_prompt_instructions.txt
 │   │    │    ├──tgt_exception_prompt.txt
 │   │    │    ├──tgt_exeception_prompt_instructions.txt
-│   │    ├──execution.py
-│   │    ├──gpt_interaction.py
-│   │    ├──pipeline.py
-│   │    ├──utils.py
-│   ├── fuzzwise outputs
-│   │    ├──responses
+│   │    ├──python
+│   │    │    ├──codepilot_main-oneshot-prompt.txt
+│   │    │    ├──codepilot_oneshot-plan-prompt.txt
+│   │    │    ├──cvg_prompt.txt
+│   │    │    ├──cvg_prompt_instructions.txt
+│   │    │    ├──tgt_coverage_prompt.txt
+│   │    │    ├──tgt_coverage_prompt_instructions.txt
+│   │    │    ├──tgt_exception_prompt.txt
+│   │    │    ├──tgt_exeception_prompt_instructions.txt
+│   ├── results
+│   │    ├──fuzzwise_results
+│   │    │    ├──java
+│   │    │    │    ├──cleaned
+│   │    │    ├──python
+│   │    │    │    ├──cleaned
 │   ├── baseline outputs
 │   ├── dataset
 │   │    ├──java_dataset.json
@@ -42,8 +55,8 @@ The dataset for FuzzWise has been tested on a subset derived from [FixExal](http
 ```
 git clone https://github.com/fuzzwise/fuzzwise.git
 ```
-2. Add the necessary paths required for fuzzing in model/pipeline.py
-3. Add the API keys and endpoints in model/gpt_interaction.py
-4. Run the 'model/pipeline.py' file 
+2. Add the necessary paths required, programming_language chosen, API keys and endpoints for fuzzing in model/config.yaml
+3. Add the code to be tested on in program.py or Main.java depending on the programming language chosen
+4. Run the 'model/main.py' file 
 
 
