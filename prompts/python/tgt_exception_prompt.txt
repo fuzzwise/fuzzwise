@@ -1,0 +1,126 @@
+Generate a single test case that MUST raise any of the following Runtime Errors that are not handled already in a Python program:
+
+ZeroDivisionError:  division or modulo by zero takes place.
+ValueError: Input value is different than expected.
+TypeError:  An operation or function is applied to an object of inappropriate type.
+RuntimeError: An error is detected that doesn’t fall in any of the other categories.
+NameError: A local or global name is not found.
+KeyError: A dictionary key is not found.
+ModuleNotFoundError: A a module could not be found.
+ArithmeticError: Arithmetic operation fails.
+NotImplementedError: An abstract method that needs to be implemented in an inherited class is not actually implemented.
+SystemError: Raised when the interpreter finds an internal error.
+Ensure the test case input is in the following format:
+Test Case Input:
+<input 1>
+<input 2>...
+
+Generate test cases different from the Previosuly Generated Test Cases
+Generate the test case without providing any explanation or additional information for the Python program below:
+PREVIOUSLY GENERATED TEST CASES
+Test Case Input:
+dreamerase
+Test Case Input:
+dreamer
+
+Test Case Output:
+YES
+
+Runtime Error: KeyError
+Test Case Input:
+dreameraseeraseeraseerase
+Test Case Input:
+dreamererase
+
+Test Case Output:
+YES
+
+Runtime Error: KeyError
+Test Case Input:
+0
+1
+
+Test Case Output:
+Runtime Error: ZeroDivisionError
+Test Case Input:
+dreamer
+
+Test Case Output:
+YES
+
+Runtime Error: ValueError
+Test Case Input:
+dreamereraseeraseerase
+
+Test Case Output:
+YES
+
+Runtime Error: KeyError
+Test Case Input:
+0
+0
+
+Test Case Output:
+Runtime Error: ZeroDivisionError
+Test Case Input:
+7
+0
+
+Test Case Output:
+Runtime Error: ZeroDivisionError
+Test Case Input:
+''
+
+Test Case Output:
+Runtime Error: KeyError
+Test Case Input:
+dreamereraseeraseeraseeraseerase
+Test Case Input:
+dreamererasereraseerase
+Test Case Input:
+dreamer
+
+Test Case Output:
+YES
+
+Runtime Error: SystemError
+Test Case Input:
+dreamerase
+
+Test Case Output:
+YES
+
+Runtime Error: RuntimeError
+Test Case Input:
+7
+0
+
+Test Case Output:
+Runtime Error: ZeroDivisionError
+Test Case Input:
+dreamererase
+
+Test Case Output:
+YES
+
+Runtime Error: RuntimeError
+Test Case Input:
+7
+0
+
+Test Case Output:
+Runtime Error: ZeroDivisionError
+
+
+PYTHON PROGRAM:
+def rec(s):
+  if s == '':
+    return True
+  else:
+    res = False
+    res = res or rec(s[7:]) if len(s) > 6 and s[0:7] == 'dreamer' else res
+    res = res or rec(s[5:]) if len(s) > 4 and s[0:5] == 'dream' else res
+    res = res or rec(s[5:]) if len(s) > 4 and s[0:5] == 'erase' else res
+    res = res or rec(s[6:]) if len(s) > 5 and s[0:6] == 'eraser' else res
+    return res
+print('YES' if rec(input()) else 'NO')
