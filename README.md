@@ -1,9 +1,10 @@
-## Enhancing Fuzzing Intelligence: A Coverage-Guided Approach with FuzzWise
+## FuzzWise: Intelligent Initial Corpus Generation for Fuzzing
 
-The coverage-guided fuzz testing framework serves as a systematic approach for automating software defect identification, crucial for enhancing program security and stability. Despite its widespread use, the framework faces challenges such as inefficiency and an ineffective feedback loop, hindering its effectiveness in identifying high-quality test cases and improving code coverage. To address these challenges, we propose a novel code coverage-guided fuzz testing framework, named FUZZWISE. Our framework leverages a Large Language Model (LLM)-based code coverage prediction tool to assess test quality upfront, prioritizing the execution of high-coverage test cases. Additionally, instead of traditional test mutation techniques, we employ the LLM to automatically generate test cases. These test cases undergo a feedback loop, where those contributing to higher code coverage are retained, while others are reintroduced to the LLM for refinement. Our empirical evaluation shows that FUZZWISE performs better than the conventional fuzz testing framework in efficient test case generation with higher coverage to effectively detect more runtime errors/exceptions.
+n mutation-based greybox fuzzing, generating high-quality input seeds for the initial corpus is essential for effective fuzzing. Rather than conducting separate phases for generating a large corpus and subsequently minimizing it, we propose FuzzWise which integrates them into one process to generate the optimal initial corpus of seeds (ICS). FuzzWise leverages a multi-agent framework based on Large Language Models (LLMs). The first LLM agent generates test cases for the target program. The second LLM agent, which functions as a predictive code coverage module, assesses whether each generated test case will enhance the overall coverage of the current corpus. The streamlined process allows each newly generated test seed to be immediately evaluated for its contribution to the overall coverage. FuzzWise employs a predictive approach using an
+LLM and eliminates the need for actual execution, saving computational resources and time, particularly in scenarios where the execution is not desirable or even impossible. Our empirical evaluation demonstrates that FuzzWise generates significantly fewer test cases than baseline methods. Despite the lower number of test cases, FuzzWise achieves high code coverage and triggers more runtime errors compared to the baselines. Moreover, it is more time-efficient and coverage-efficient in producing an initial corpus catching more errors.
 
 ### Dataset
-All data for reproducing the results is available in the final_dataset.json file.
+All data for reproducing the results is available in the dataset folder.
 
 The dataset for FuzzWise has been tested on a subset derived from [FixExal](https://arxiv.org/abs/2206.07796)
 
@@ -26,12 +27,12 @@ The dataset for FuzzWise has been tested on a subset derived from [FixExal](http
 │   │    ├──gpt_interaction.py
 │   │    ├──pipeline.py
 │   │    ├──utils.py
-│   │    ├──rq5.py
 │   ├── fuzzwise outputs
 │   │    ├──responses
-│   │    ├──executions logs
-│   ├── jazzer outputs
-│   ├── dataset.json
+│   ├── baseline outputs
+│   ├── dataset
+│   │    ├──java_dataset.json
+│   │    ├──python_dataset.json
 │   └── README.md
 ```
 
