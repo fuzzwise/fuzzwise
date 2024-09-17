@@ -1,34 +1,43 @@
-language: "python"  # or "java"
+
+language: "java"  # or "python"
 
 paths:
   python_prompts:
-    tgt_exception_prompt: "python_prompts/tgt_exception_prompt.txt"
-    tgt_coverage_prompt: "python_prompts/tgt_coverage_prompt.txt"
-    cvg_prompt: "python_prompts/cvg_prompt.txt"
-    tgt_exception_instructions: "python_prompts/tgt_exception_prompt_instructions.txt"
-    tgt_coverage_instructions: "python_prompts/tgt_coverage_prompt_instructions.txt"
-    cvg_instructions: "python_prompts/cvg_prompt_instructions.txt"
-    code_txt: "python_prompts/code.txt"
-    codepilot_cvg_prompt: "python_prompts/codepilot_main-oneshot-plan-prompt.txt"
-    codepilot_cvg_instructions: "python_prompts/codepilot_oneshot-plan-prompt.txt"
+    tgt_exception_prompt: "../prompts/python/tgt_exception_prompt.txt"
+    tgt_coverage_prompt: "../prompts/python/tgt_coverage_prompt.txt"
+    cvg_prompt: "../prompts/python/cvg_prompt.txt"
+    tgt_exception_instructions: "../prompts/python/tgt_exception_prompt_instructions.txt"
+    tgt_coverage_instructions: "../prompts/python/tgt_coverage_prompt_instructions.txt"
+    cvg_instructions: "../prompts/python/cvg_prompt_instructions.txt"
+    codepilot_cvg_prompt: "../prompts/python/codepilot_main-oneshot-plan-prompt.txt"
+    codepilot_cvg_instructions: "../prompts/python/codepilot_oneshot-plan-prompt.txt"
 
   java_prompts:
-    tgt_exception_prompt: "java_prompts/tgt_exception_prompt.txt"
-    tgt_coverage_prompt: "java_prompts/tgt_coverage_prompt.txt"
-    cvg_prompt: "java_prompts/cvg_prompt.txt"
-    tgt_exception_instructions: "java_prompts/tgt_exception_prompt_instructions.txt"
-    tgt_coverage_instructions: "java_prompts/tgt_coverage_prompt_instructions.txt"
-    cvg_instructions: "java_prompts/cvg_prompt_instructions.txt"
-    code_txt: "java_prompts/code.txt"
-    codepilot_cvg_prompt: "java_prompts/codepilot_main-oneshot-plan-prompt.txt"
-    codepilot_cvg_instructions: "java_prompts/codepilot_oneshot-plan-prompt.txt"
+    tgt_exception_prompt: "../prompts/java/tgt_exception_prompt.txt"
+    tgt_coverage_prompt: "../prompts/java/tgt_coverage_prompt.txt"
+    cvg_prompt: "../prompts/java/cvg_prompt.txt"
+    tgt_exception_instructions: "../prompts/java/tgt_exception_prompt_instructions.txt"
+    tgt_coverage_instructions: "../prompts/java/tgt_coverage_prompt_instructions.txt"
+    cvg_instructions: "../prompts/java/cvg_prompt_instructions.txt"
+    codepilot_cvg_prompt: "../prompts/java/codepilot_main-oneshot-plan-prompt.txt"
+    codepilot_cvg_instructions: "../prompts/java/codepilot_oneshot-plan-prompt.txt"
 
-  dataset: "../dataset/rq1python_50_programs_cyclomaticcomplexity10to20.json"
-  output_folder: "../fse25_fuzzwise/python_results"
+  dataset: "../dataset/java_dataset.json"
+  output_folder: "../results"
   java_program: "Main.java"
-  python_program: "main.py"
+  python_program: "program.py"
 
-openai_key: "#OPENAI_API_ENDPOINT"
-openai_endpoint: "OPENAI_API_KEY"
-openai_version: "OPENAI_VERSION"
-openai_model: "OPENAI_MODEL_NAME"
+
+azure_openai:
+  tgt:
+    api_key: "YOUR_OPENAI_API_KEY"
+    api_version: "YOUR_OPENAI_API_VERSION"
+    model: YOUR_OPENAI_API_MODEL_VERSION
+    azure_endpoint: "YOUR_OPENAI_API_ENDPOINT"
+
+  ccp:
+    api_key: "YOUR_OPENAI_API_KEY"
+    api_version: "YOUR_OPENAI_API_VERSION"
+    model: YOUR_OPENAI_API_MODEL_VERSION
+    azure_endpoint: "YOUR_OPENAI_API_ENDPOINT"
+
