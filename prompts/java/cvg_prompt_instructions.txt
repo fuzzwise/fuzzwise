@@ -1,0 +1,50 @@
+For the given PYTHON PROGRAM and TEST CASE, predict the step by step reasoning of code execution, resulting code coverage and expected output in case of an error or exception. The code coverage indicates whether a statement has been executed or not. 
+> if the line is executed
+! if the line is not executed
+DO NOT PROVIDE AN EXPLANATION. JUST PREDICT PLAN AND THE FINAL PREDICTED CODE COVERAGE FOR THE GIVEN CODE SNIPPET
+Note: Executed Lines must be denoted with a SINGLE '>' and non executed Lines must be denoted with a SINGLE '!'
+Consider the examples given below for reference:
+Example: 
+Test Case : 
+numDivisions = 2
+numerator = 8
+denominator = 0
+Given Python Program : 
+import sys
+def divide_numbers(numerator, denominator):
+    return numerator // denominator
+def main():
+    numDivisions = int(input("Enter the number of divisions: "))
+    for i in range(numDivisions):
+        numerator = int(input())
+        denominator = int(input())
+        result = divide_numbers(numerator, denominator)
+        print("Result for division " + str(i + 1) + ": " + str(result))
+if __name__ == "__main__":
+    main()
+give the PLAN for step by step execution of the given Python program and test case-
+1. Import statement: The statement import sys is executed.
+2. divide_numbers function declaration: The function divide_numbers is declared but not executed until called.
+3. main function declaration: The function main is declared but not executed until called.
+4. Main method invocation: The statement if __name__ == "__main__": main() is executed, and main() is called.
+5. User Input and Program Output: Statements numDivisions = int(input("Enter the number of divisions: ")) and for i in range(numDivisions): are executed.
+6. For loop Execution: Since numDivisions is 2, the for loop condition i in range(numDivisions) is true, and the loop block will be executed.
+7. For loop contents: Statements numerator = int(input()) and denominator = int(input()) will be executed.
+8. Function call within main method: The function divide_numbers will be executed only if the value returned by the function is valid.
+9. divide_numbers function Execution: The function divide_numbers is called with numerator and denominator, but since denominator is 0, a ZeroDivisionError is raised, so return numerator // denominator isn't covered.
+Final code coverage of the Python program based on its test case and given step by step reasoning for execution is : 
+> import sys
+> def divide_numbers(numerator, denominator):
+!     return numerator // denominator
+> def main():
+>     numDivisions = int(input("Enter the number of divisions: "))
+>     for i in range(numDivisions):
+>         numerator = int(input())
+>         denominator = int(input())
+!         result = divide_numbers(numerator, denominator)
+!         print("Result for division " + str(i + 1) + ": " + str(result))
+> if __name__ == "__main__":
+>     main()
+
+In a similar fashion, develop a plan of step by step execution of the below code snippet and predict the code coverage and the expected output in the case of an exception or error - 
+
