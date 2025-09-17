@@ -42,7 +42,6 @@ The dataset for FuzzWise has been tested on a subset derived from [FixExal](http
 │   │    │    │    ├──cleaned
 │   │    │    ├──python
 │   │    │    │    ├──cleaned
-│   ├── baseline outputs
 │   ├── dataset
 │   │    ├──java_dataset.json
 │   │    ├──python_dataset.json
