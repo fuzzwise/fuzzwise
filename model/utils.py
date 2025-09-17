@@ -4,7 +4,7 @@ import gpt
 
 def load_paths_from_config(config_path):
     """
-    Loads the language-specific paths from the YAML configuration file.
+    This function Loads the language-specific paths from the YAML configuration file.
 
     Args:
         config_path (str): The path to the YAML configuration file.
@@ -372,3 +372,4 @@ def process_all_json_files_in_folder(input_folder, output_folder):
             output_file_path = os.path.join(output_folder, filename)
             print(f"Processing file: {input_file_path}")
             clean_and_deduplicate_json(input_file_path, output_file_path)
+
