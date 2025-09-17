@@ -9,7 +9,7 @@ def interactive_testing_pipeline(submission_id, initial_code, config, config_pat
     generated_test_cases = ""
     generated_test_seeds = ""
 
-    # Get language-specific paths
+    # Gets language-specific paths
     paths = utils.get_language_specific_paths(config)
     
     # Read prompt instruction files
@@ -130,3 +130,4 @@ def interactive_testing_pipeline(submission_id, initial_code, config, config_pat
         # Save and clean results
         utils.save_cycle_response(fuzzwise_logs_json_filepath, result)
         utils.clean_and_deduplicate_json(fuzzwise_logs_json_filepath)
+
