@@ -4,7 +4,7 @@ from openai import AzureOpenAI
 
 def load_azure_config(config_path):
     """
-    Loads the Azure OpenAI configuration from a YAML file.
+    This function Loads the Azure OpenAI configuration from a YAML file.
 
     Args:
         config_path (str): The path to the configuration YAML file.
@@ -124,3 +124,4 @@ def check_all_coverage_symbols_gt(response):
     """
     coverage_symbols = utils.extract_symbols(response)
     return all(symbol == '>' for symbol in coverage_symbols)
+
