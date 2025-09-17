@@ -32,7 +32,7 @@ azure_openai:
   tgt:
     api_key: "YOUR_OPENAI_API_KEY"
     api_version: "YOUR_OPENAI_API_VERSION"
-    model: YOUR_OPENAI_API_MODEL_VERSION
+    model: "YOUR_OPENAI_API_MODEL_VERSION"
     azure_endpoint: "YOUR_OPENAI_API_ENDPOINT"
 
   ccp:
