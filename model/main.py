@@ -1,7 +1,7 @@
 import utils
 import pipeline
 
-# Load configuration from YAML
+# Loads configuration from YAML
 config_path = 'config.yaml'
 config = utils.load_config('config.yaml')
 
@@ -23,3 +23,4 @@ submission_id = "test"
 
 # Call the interactive testing pipeline
 pipeline.interactive_testing_pipeline(submission_id, initial_code, config, config_path)
+
