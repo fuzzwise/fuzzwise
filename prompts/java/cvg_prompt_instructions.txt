@@ -1,6 +1,7 @@
 For the given PYTHON PROGRAM and TEST CASE, predict the step by step reasoning of code execution, resulting code coverage and expected output in case of an error or exception. The code coverage indicates whether a statement has been executed or not. 
 > if the line is executed
 ! if the line is not executed
+
 DO NOT PROVIDE AN EXPLANATION. JUST PREDICT PLAN AND THE FINAL PREDICTED CODE COVERAGE FOR THE GIVEN CODE SNIPPET
 Note: Executed Lines must be denoted with a SINGLE '>' and non executed Lines must be denoted with a SINGLE '!'
 Consider the examples given below for reference:
@@ -47,4 +48,5 @@ Final code coverage of the Python program based on its test case and given step 
 >     main()
 
 In a similar fashion, develop a plan of step by step execution of the below code snippet and predict the code coverage and the expected output in the case of an exception or error - 
+
 
