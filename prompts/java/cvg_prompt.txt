@@ -6,6 +6,7 @@ Example output:
 ! line2
 > line3
 ...
+...
 > linen
 If the test case raises an exception, provide the runtime exception raised. 
 You need to develop a plan for step by step execution of the code snippet. 
@@ -109,4 +110,5 @@ class Main {
 			}
 		}
 	}
+
 }
