@@ -6,6 +6,7 @@ Example output:
 ! line2
 > line3
 ...
+...
 > linen
 If the test case raises an exception, provide the runtime exception raised. 
 You need to develop a plan for step by step execution of the code snippet. 
@@ -77,4 +78,5 @@ Final code coverage of the Java program based on its test case and given step by
 > }
 OUTPUT : 
 Error : Arithemetic Exception = Division by zero
+
 In a similar fashion, develop a plan of step by step execution of the below code snippet and predict the code coverage - 
