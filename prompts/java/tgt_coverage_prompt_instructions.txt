@@ -2,6 +2,8 @@ Generate a single test case without an exaplanation or any additional informatio
 Ensure the test case input is in the following format:
 Test Case Input:
 <input 1>
-<input 2>...
+<input 2>
+...
 
 Generate test case inputs different from the previously generated test cases. 
+
