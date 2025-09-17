@@ -6,6 +6,7 @@ Example output:
 ! line2
 > line3
 ...
+...
 > linen
 If the test case raises an exception, provide the runtime exception raised. 
 You need to develop a plan for step by step execution of the code snippet. 
@@ -96,4 +97,5 @@ def rec(s):
     res = res or rec(s[5:]) if len(s) > 4 and s[0:5] == 'erase' else res
     res = res or rec(s[6:]) if len(s) > 5 and s[0:6] == 'eraser' else res
     return res
+
 print('YES' if rec(input()) else 'NO')
